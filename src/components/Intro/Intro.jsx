@@ -29,6 +29,7 @@ const Intro = () => {
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Pawan Kumar Sah</span>
+          <span>A Passionate Web Developer</span>
           <span>
           Frontend Developer passionate about web design and development, 
           eager to learn and produce quality work.
@@ -61,7 +62,7 @@ const Intro = () => {
           initial={{ left: "-36%" }}
           whileInView={{ left: "-24%" }}
           transition={transition}
-          src={glassesimoji}
+          src={""}
           alt=""
         />
 

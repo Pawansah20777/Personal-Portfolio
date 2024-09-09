@@ -1,0 +1,73 @@
+/* Define theme variables */
+:root {
+  --bg-color-dark: #181818;
+  --bg-color-light: #f4f4f4;
+  --card-bg-dark: #282828;
+  --card-bg-light: #ffffff;
+  --text-color-dark: #fff;
+  --text-color-light: #000;
+}
+
+body.dark-mode {
+  background-color: var(--bg-color-dark);
+  color: var(--text-color-dark);
+}
+
+body.light-mode {
+  background-color: var(--bg-color-light);
+  color: var(--text-color-light);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--bg-color-dark);
+  color: var(--text-color-dark);
+  font-family: 'Arial', sans-serif;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  margin-top: 0;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 3rem;
+}
+
+.skill-card {
+  background-color: var(--card-bg-dark);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 30%;
+  color: var(--text-color-dark);
+}
+
+.skill-card.light-mode {
+  background-color: var(--card-bg-light);
+  color: var(--text-color-light);
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.skill-item img {
+  width: 30px;
+  height: 30px;
+  margin-right: 1rem;
+}
+
+.skill-item span {
+  font-size: 1.2rem;
+}

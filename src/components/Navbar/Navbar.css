@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 2rem;
-  top: 0;
+  top: 0;  
 }
 .n-left {
   flex: 1;
@@ -30,7 +30,7 @@
 }
 .n-list > ul {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   margin-right: 4rem;
 }
 

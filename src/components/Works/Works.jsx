@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 import "./Works.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import Upwork from "../../img/a.png";
+import Fiverr from "../../img/b.png";
+import Amazon from "../../img/c.png";
+import Shopify from "../../img/d.png";
+import Facebook from "../../img/e.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import {Link} from 'react-scroll'
@@ -21,18 +21,22 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
-            Works for All these
+          Technologies
           </span>
-          <span>Brands & Clients</span>
+          <span> Programming Skills</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+            Building full-stack applications with the MERN stack.
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
+            Proficient in HTML, CSS, JavaScript, and Laravel 
             <br />
-            y dummy text of printingLorem
+            for creating dynamic, responsive web applications.
             <br />
-            ispum is simpley dummy text of printing
+            Crafting stunning cross-platform apps with Flutter's fast and 
+            flexible framework.
+            <br />
+            Possess basic knowledge of Java, Python, and C 
+            <br />
+            for foundational programming and application development.
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
@@ -73,6 +77,8 @@ const Works = () => {
         <div className="w-backCircle blueCircle"></div>
         <div className="w-backCircle yellowCircle"></div>
       </div>
+
+      
     </div>
   );
 };

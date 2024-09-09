@@ -39,10 +39,17 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
-        </div>
+  <a href="https://github.com/Pawansah20777">
+    <img src={Github} alt="GitHub" />
+  </a>
+  <a href="https://www.linkedin.com/in/pawan-kumar-sah-645b59258/">
+    <img src={LinkedIn} alt="LinkedIn" />
+  </a>
+  <a href="https://www.instagram.com/pawankumarsah84/">
+    <img src={Instagram} alt="Instagram" />
+  </a>
+</div>
+
       </div>
       {/* right image side */}
       <div className="i-right">

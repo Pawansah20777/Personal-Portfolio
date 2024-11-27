@@ -9,6 +9,7 @@ import crown from "../../img/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
+import Facebook from "../../img/facebook.png";
 import Instagram from "../../img/instagram.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
@@ -45,6 +46,9 @@ const Intro = () => {
   </a>
   <a href="https://www.linkedin.com/in/pawan-kumar-sah-645b59258/">
     <img src={LinkedIn} alt="LinkedIn" />
+  </a>
+  <a href="https://www.facebook.com/profile.php?id=100009289262051">
+    <img src={Facebook} alt="facebook" />
   </a>
   <a href="https://www.instagram.com/pawankumarsah84/">
     <img src={Instagram} alt="Instagram" />

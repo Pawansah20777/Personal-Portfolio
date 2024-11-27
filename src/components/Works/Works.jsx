@@ -27,7 +27,7 @@ const Works = () => {
           <spane>
             Building full-stack applications with the MERN stack.
             <br />
-            Proficient in HTML, CSS, JavaScript, and Laravel 
+            Proficient in HTML, CSS, JavaScript, and Redux 
             <br />
             for creating dynamic, responsive web applications.
             <br />

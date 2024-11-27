@@ -8,10 +8,10 @@ const Experience = () => {
 
   // Array of project details (replace with your actual project data)
   const projects = [
-    { title: "Project 1", description: "A brief description of project 1." },
-    { title: "Project 2", description: "A brief description of project 2." },
-    { title: "Project 3", description: "A brief description of project 3." },
-    { title: "Project 4", description: "A brief description of project 4." },
+    { title: "Project 1", description: "Real Estate" },
+    { title: "Project 2", description: "Docucare" },
+    { title: "Project 3", description: "Book my Hiace" },
+    { title: "Project 4", description: "ANPR" },
     ];
 
   return (

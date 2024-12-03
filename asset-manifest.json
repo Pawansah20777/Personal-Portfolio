@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Personal-Portfolio/static/css/main.bddf9690.css",
+    "main.js": "/Personal-Portfolio/static/js/main.07c03990.js",
+    "static/media/css.png": "/Personal-Portfolio/static/media/css.966853cead6094d67474.png",
+    "static/media/resume.pdf": "/Personal-Portfolio/static/media/resume.ca3f6d8f4628ef38dfb2.pdf",
+    "static/media/aws.png": "/Personal-Portfolio/static/media/aws.9ae17315350c28e975cc.png",
+    "static/media/python_core.png": "/Personal-Portfolio/static/media/python_core.b61a272ffc80b5babf8e.png",
+    "static/media/integra.png": "/Personal-Portfolio/static/media/integra.255f1275b13115a3c4b2.png",
+    "static/media/java1.png": "/Personal-Portfolio/static/media/java1.e6ae2477a8cf00190857.png",
+    "static/media/java2.png": "/Personal-Portfolio/static/media/java2.9d82798faf4735c1702b.png",
+    "static/media/java_script.png": "/Personal-Portfolio/static/media/java_script.f49d749739bdb81463d3.png",
+    "static/media/html.png": "/Personal-Portfolio/static/media/html.f80bc35756d5508fe0c1.png",
+    "static/media/data_structure.png": "/Personal-Portfolio/static/media/data_structure.b0abbbc4a3c9ea283a2d.png",
+    "static/media/boy2.png": "/Personal-Portfolio/static/media/boy2.695a9defb30cb94667ac.png",
+    "static/media/glassesimoji.png": "/Personal-Portfolio/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/flutter.png": "/Personal-Portfolio/static/media/flutter.70e35a4e54d50af980fd.png",
+    "static/media/tensor.png": "/Personal-Portfolio/static/media/tensor.8d9e8f8d20f1ff7e3498.png",
+    "static/media/hseb.png": "/Personal-Portfolio/static/media/hseb.33499e7c67a68e8c45c8.png",
+    "static/media/pytorch.png": "/Personal-Portfolio/static/media/pytorch.4abaa034f5a3b6c9b20b.png",
+    "static/media/php.png": "/Personal-Portfolio/static/media/php.ed4403cbed21f99b6ae0.png",
+    "static/media/c.png": "/Personal-Portfolio/static/media/c.6125ed33a16fedaf1047.png",
+    "static/media/thumbup.png": "/Personal-Portfolio/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/java.png": "/Personal-Portfolio/static/media/java.b01556756e14a6592278.png",
+    "static/media/opencv.png": "/Personal-Portfolio/static/media/opencv.de41a9bbd28b3e34dd39.png",
+    "static/media/graduate.png": "/Personal-Portfolio/static/media/graduate.57b6ada53e9d4f92c577.png",
+    "static/media/school.png": "/Personal-Portfolio/static/media/school.bac8f00c006f4b0bcfb2.png",
+    "static/media/wave.png": "/Personal-Portfolio/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/Personal-Portfolio/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/Personal-Portfolio/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "index.html": "/Personal-Portfolio/index.html",
+    "main.bddf9690.css.map": "/Personal-Portfolio/static/css/main.bddf9690.css.map",
+    "main.07c03990.js.map": "/Personal-Portfolio/static/js/main.07c03990.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bddf9690.css",
+    "static/js/main.07c03990.js"
+  ]
+}

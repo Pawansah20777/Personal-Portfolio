@@ -29,7 +29,7 @@ function App() {
       <TechnicalSkills/>
       <Experience />
       <Portfolio />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Contact />
       <Footer />
     </div>

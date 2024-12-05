@@ -1,10 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import { themeContext } from "../../Context"; // Import context
 import Toggle from "../Toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { state } = useContext(themeContext);  // Access theme context
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -16,7 +18,11 @@ const Navbar = () => {
       <div className="n-left">
         <div className="n-name">Pawan's Web Creation</div>
         <Toggle />
-        <div className="n-hamburger" onClick={toggleMenu}>
+        <div
+          className="n-hamburger"
+          onClick={toggleMenu}
+          style={{ backgroundColor: state.darkMode ? "white" : "black" }}  // Conditional color
+        >
           <div className="line"></div>
           <div className="line"></div>
           <div className="line"></div>

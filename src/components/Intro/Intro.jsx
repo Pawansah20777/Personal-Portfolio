@@ -98,7 +98,7 @@ const Intro = () => {
             top: "17rem",
             width: "21rem",
             height: "11rem",
-            left: "-9rem",
+            left: "-10rem",
           }}
         ></div>
       </div>

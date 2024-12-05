@@ -72,3 +72,58 @@ body.light-mode {
   font-size: 1.2rem;
 }
 
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  .tech-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Space between sections */
+    padding: 10px;
+  }
+
+  .tech-card {
+    width: 100%; /* Full width for each card */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    margin-bottom: 20px;
+  }
+
+  .tech-list {
+    display: grid ;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center;
+    gap: 10px; /* Space between tech items */
+  }
+
+  .tech-item {
+    flex: 1 1 calc(50% - 10px); /* Adjust items to take half width with some margin */
+    display: flex;
+    flex-direction: column; /* Stack image and text */
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .tech-item img {
+    width: 40px; /* Adjust icon size */
+    height: 40px;
+    margin-bottom: 5px; /* Space between image and text */
+  }
+
+  .tech-item span {
+    font-size: 0.9rem; /* Slightly smaller text on mobile */
+  }
+}
+
+/* Further adjustments for very small screens */
+@media screen and (max-width: 480px) {
+  .tech-item {
+    flex: 1 1 100%; /* Each item takes full width */
+    margin-bottom: 10px;
+  }
+
+  .tech-section {
+    padding: 5px;
+    margin-top: -60%;
+  }
+}

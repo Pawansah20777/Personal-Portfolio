@@ -92,6 +92,12 @@
   .experience-grid {
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   }
+  .portfolio1 span:nth-of-type(1) {
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -99,6 +105,16 @@
     max-width: 200px;
     height: 300px;
   }
+  .portfolio1 span:nth-of-type(1) {
+    color: var(--black);
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    box-shadow: none; 
+  }
+  
+
 
   .card-content h3 {
     font-size: 1.2rem;
@@ -112,6 +128,7 @@
     font-size: 0.9rem;
     
   }
+  
 }
 
 .portfolio1 {

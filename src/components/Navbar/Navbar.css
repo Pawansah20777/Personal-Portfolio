@@ -109,3 +109,33 @@
     margin-top: 1rem;
   }
 }
+.n-hamburger {
+  display: none; /* Hide by default */
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  z-index: 10; /* Ensure it appears on top */
+}
+
+/* Lines of the hamburger */
+.n-hamburger .line {
+  width: 25px;
+  height: 3px;
+  background-color: black; /* Adjust line color */
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 480px) {
+  .n-hamburger {
+    display: flex; /* Show hamburger icon */
+  }
+
+  /* Optional: Change line color based on background */
+  .n-hamburger {
+    background-color: var(--hamburger-bg, black); /* Use variable for flexibility */
+  }
+
+  .n-hamburger .line {
+    background-color: var(--line-color, white); /* Change line color accordingly */
+  }
+}

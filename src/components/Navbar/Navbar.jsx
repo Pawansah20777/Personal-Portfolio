@@ -1,17 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import Toggle from "../Toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";
-const navbar = () => {
+
+const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <div className="n-wrapper" id="Navbar">
       {/* left */}
       <div className="n-left">
-        <div className="n-name">Pawan's web Creation</div>
+        <div className="n-name">Pawan's Web Creation</div>
         <Toggle />
+        <div className="n-hamburger" onClick={toggleMenu}>
+          <div className="line"></div>
+          <div className="line"></div>
+          <div className="line"></div>
+        </div>
       </div>
       {/* right */}
-      <div className="n-right">
+      <div className={`n-right ${isMenuOpen ? "show" : ""}`}>
         <div className="n-list">
           <ul style={{ listStyleType: "none" }}>
             <li>
@@ -29,7 +41,7 @@ const navbar = () => {
                 Skills
               </Link>
             </li>
-             <li>
+            <li>
               <Link to="projects" spy={true} smooth={true}>
                 Projects
               </Link>
@@ -47,11 +59,11 @@ const navbar = () => {
           </ul>
         </div>
         <Link to="contact" spy={true} smooth={true}>
-        <button className="button n-button">Contact</button>
+          <button className="button n-button">Contact</button>
         </Link>
       </div>
     </div>
   );
 };
 
-export default navbar;
+export default Navbar;

@@ -3,48 +3,109 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 2rem;
-  top: 0;  
-}
-.n-left {
-  flex: 1;
+  top: 0;
   align-items: center;
-  justify-content: left;
+}
+
+.n-left {
   display: flex;
-  gap: 0.5rem;
+  align-items: center;
+  gap: 1rem;
 }
 
 .n-name {
-  font-size: 1.3rem;
+  margin: top 10px;;
+  font-size: 1.2rem;
   font-weight: bold;
 }
+
 .n-right {
-  flex: 1;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  font-weight: 400;
+  gap: 1rem;
 }
 
 .n-list {
-  flex: 10;
-}
-.n-list > ul {
   display: flex;
   gap: 1rem;
-  margin-right: 4rem;
 }
 
-.n-list > ul :hover {
-  color: var(--orange);
-  cursor: pointer;
+.n-list ul {
+  display: flex;
+  gap: 1rem;
 }
 
 .n-button {
-  flex: 2;
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
+/* Hamburger Menu Styling */
+.n-hamburger {
+  display: none; /* Hide by default */
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  z-index: 10; /* Ensure it appears on top */
+}
+
+.n-hamburger .line {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+}
+
+/* Mobile responsiveness */
 @media screen and (max-width: 480px) {
-  .n-list {
+  .n-wrapper {
+    flex-direction: column;
+    height: auto;
+  }
+  .n-name {
+    margin: top 10px;;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .n-left {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .n-hamburger {
+    display: flex; /* Show hamburger icon */
+  }
+
+  .n-right {
     display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .n-right.show {
+    display: flex;
+  }
+
+  .n-list ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .n-list li {
+    margin: 0.5rem 0;
+  }
+
+  .n-button {
+    width: 100%;
+    margin-top: 1rem;
   }
 }
